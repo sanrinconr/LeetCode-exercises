@@ -1,5 +1,12 @@
 # Two Sum
 
+## How i think the exercise?
+The maner to afront this exercise is with the idea of "try all array and find if exist the other number such that the sum is the target".
+
+## Complexity of exercise
+With this idea the O(n) in use of time is n^2, because the two for's (in really the order is slightly minor, but the trend is n^2)
+
+## Description
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
