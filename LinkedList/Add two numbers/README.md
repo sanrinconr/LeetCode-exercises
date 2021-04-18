@@ -3,7 +3,7 @@
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
 ## How i think the exercise?
-The maner to afront this exercise is with the idea of "sum the two actual nodes, put in a array and go to the next of every list. Finally pass this sum array to a new linked list".
+The maner to afront this exercise is with the idea of "sum the two actual nodes, push the result in a array, and go to the next of every list until finish. Finally use this result array to create new linked list".
 
 ## Complexity of exercise
 With this idea the O(n) in use of time is n^2, because the need of sum every pair or nodes and after, convert the array generated to a linkedList
