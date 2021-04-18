@@ -5,7 +5,7 @@
  var threeSum = function(nums) {
     let out = []
     let hash = {}
-    nums.sort()
+    nums.sort((a,b)=>a-b)
     for(let  i = 0 ; i<nums.length ; i++){
         //If before if is the same dont make nothing, this is the reason of the sort()
         if (nums[i] === nums[i - 1]) {
