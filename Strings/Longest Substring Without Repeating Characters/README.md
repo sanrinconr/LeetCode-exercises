@@ -7,7 +7,7 @@ Given a string s, find the length of the longest substring without repeating cha
 The maner to afront this exercise is with the idea of "iterate the string in every element and find the longest substring starting from actual element and if the value is greater than variable before update with new value ".
 
 ## Complexity of exercise
-With this idea i have a dilemma finding the complexity becouse i iterate de array and in every element iterate again but no all, then i calculate this manually, taking times, and finaly, the order is O(n) !, if you interested, [here is the graph](https://docs.google.com/spreadsheets/d/13gm02irsNn18-IcsswgDPfx7mkAc9GHHf4ZVkz_pyfg/edit#gid=0) 
+With this idea i have a dilemma finding the complexity becouse i iterate de array and in every element iterate again but no all, then, i take the manually manually opcion, measure times and graph, after this, i can conclude the order is O(n) !, if you interested about the times and graph, [here is the sheet where i calculate this](https://docs.google.com/spreadsheets/d/13gm02irsNn18-IcsswgDPfx7mkAc9GHHf4ZVkz_pyfg/edit#gid=0) 
 
 ## Description
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
