@@ -1,5 +1,6 @@
-# Add Two Numbers
+# Longest Substring Without Repeating Characters
 
+## Description
 Given a string s, find the length of the longest substring without repeating characters.
 
 ## How i think the exercise?
